@@ -63,7 +63,11 @@ builder.Services.AddHealthChecks().AddDbContextCheck<AppDbContext>();
 
 ## Seeding
 
-Seed blocks and planned sessions from `data/plan10k12uker.json` (copy it to the API as content or embed it). Use EF Core's `UseSeeding`/`UseAsyncSeeding` in `AddDbContext` options, and make the seeding idempotent (check whether data exists first).
+Plan data (blocks, planned sessions, nutrition) comes from `data/plan10k12uker.json`, embedded in the API assembly and read by `Data/PlanSeedData.cs`. It is seeded with `HasData` in the entity configurations, so the data lives in the migrations and reaches Azure through the idempotent SQL script. Do **not** use `UseSeeding`/`UseAsyncSeeding` for plan data — those only run when EF applies migrations itself, never from the SQL script.
+
+- Seed entities need stable ids (blocks use the JSON id; sessions use `blockId * 10 + (int)DayOfWeek`).
+- After editing the JSON, add a migration. The test `Migrations_are_up_to_date_with_seed_data_and_model` fails until you do.
+- User data (training logs, progress) is never seeded.
 
 ## Migrations
 
