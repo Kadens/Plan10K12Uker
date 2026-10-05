@@ -1,0 +1,6 @@
+- [Wiki-forside](https://github.com/Kadens/Plan10K12Uker/wiki)
+- [Blokk 1 – Uke 1–4](https://github.com/Kadens/Plan10K12Uker/wiki/Blokk-1)
+- [Blokk 2 – Uke 5–8](https://github.com/Kadens/Plan10K12Uker/wiki/Blokk-2)
+- [Blokk 3 – Uke 9–12](https://github.com/Kadens/Plan10K12Uker/wiki/Blokk-3)
+- [Progressjonslogg](https://github.com/Kadens/Plan10K12Uker/wiki/Progressjonslogg)
+- [Treningsdagbok-mal](https://github.com/Kadens/Plan10K12Uker/wiki/Treningsdagbok-mal)

@@ -1,0 +1,59 @@
+{
+  "name": "Plan10K12Uker",
+  "blocks": [
+    {
+      "id": 1,
+      "name": "Blokk 1",
+      "weeks": [1, 2, 3, 4],
+      "focus": "Bryte platå, øke VO2max",
+      "schedule": {
+        "Monday": "Run 4x4 intervals",
+        "Tuesday": "Strength: squat, deadlift, row, hip thrust",
+        "Wednesday": "Zwift Z2 60–75 min",
+        "Thursday": "Zwift VO2 6x2 min",
+        "Friday": "Strength: lunge, step-up, press, pulldown",
+        "Saturday": "Run Z2 5–10 km",
+        "Sunday": "Bike Z2 2–3 h or rest"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Blokk 2",
+      "weeks": [5, 6, 7, 8],
+      "focus": "Øke kapasitet, øke FTP",
+      "schedule": {
+        "Monday": "Run 4x4/5x4 progression",
+        "Tuesday": "Strength heavy: squat 5x5, deadlift 4x5",
+        "Wednesday": "Zwift Z2 60–90 min",
+        "Thursday": "Zwift FTP 2x20 or 3x12",
+        "Friday": "Strength volume: lunge, step-ups, press, pulldown",
+        "Saturday": "Run Z2 8–12 km",
+        "Sunday": "Bike Z2 or rest"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Blokk 3",
+      "weeks": [9, 10, 11, 12],
+      "focus": "Peak vinterform, maksimal fettmobilisering",
+      "schedule": {
+        "Monday": "Run VO2 10x1 or 6x3",
+        "Tuesday": "Strength maintenance",
+        "Wednesday": "Zwift Z2 45–75 min",
+        "Thursday": "Zwift VO2 8x2 or 5x3",
+        "Friday": "Rest or light strength",
+        "Saturday": "Run Z2 10–14 km",
+        "Sunday": "Bike Z2 or rest"
+      }
+    }
+  ],
+  "nutrition": {
+    "breakfast": {
+      "restDays": "Protein shake + peanut butter + berries",
+      "trainingDays": "Protein shake + peanut butter + banana or bread slice"
+    },
+    "lunch": "Salad + eggs + mackerel + extra protein",
+    "dinner": "Chicken, cod or beef + vegetables + carbs after hard sessions",
+    "snacks": "Chocolate Saturdays, moderate alcohol"
+  }
+}
