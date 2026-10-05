@@ -2,6 +2,8 @@
 
 Plan10K12Uker/
 ├── README.md
+├── CLAUDE.md                 # Instruksjoner for Claude Code
+├── .claude/skills/           # Claude Code-skills (react-webapp, dotnet-api, postgresql-db, azure-deploy)
 ├── docs/
 │   ├── STRUCTURE.md
 │   └── wiki-links.md
